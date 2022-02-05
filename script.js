@@ -1,6 +1,7 @@
 async function main() {
-    let res = await fetch('https://forum-test.chiroyce.repl.co/');
+    let res = await fetch('https://scratchdb.lefty.one/v3/forum/search?q=e&o=newest');
     res = await res.json();
+    let post = res.posts[0].id;
     document.getElementById("post").href = `https://scratch.mit.edu/discuss/post/${res.latest_post}`;
     document.getElementById("post").innerText = `https://scratch.mit.edu/discuss/post/${res.latest_post}`;
 }
