@@ -1,6 +1,6 @@
 # latest-post
-Frontend for finding out the latest post in the Scratch Forums
+Finds the latest post on the forums, based off of one from [Chiroyce1](https://github.com/Chiroyce1/latest-post)
 
-### https://chiroyce1.github.io/latest-post
+**Find it on [GitHub Pages](https://steve0greatness.github.io/latest-post)**
 
-### Uses [ScratchDB's v3 API](https://scratchdb.lefty.one/v3/).
+Uses [ScratchDB's v3 API](https://scratchdb.lefty.one/v3/).
